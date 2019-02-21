@@ -10,10 +10,10 @@ from email.mime.multipart import MIMEMultipart
 # 定義變數
 host = "imap.gmail.com"
 port = 465
-user = "will.coding.test@gmail.com"
-password = ""
-from_addr = "will.coding.test@gmail.com"
-to_addrs = ["will.coding.test@gmail.com", "will.lai.wk@gmail.com"]
+user = "Your Google Mail"
+password = "Your Google Password"
+from_addr = "Sender's Mail"
+to_addrs = ["Receiver's Mail"]
 
 # 建立 message 實體
 # 使用 MIMEMultipart("alternative"): 當收件人的軟體不支援 HTML 時，才顯示 context_plain。
